@@ -1,0 +1,200 @@
+/* GENERAL */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav, h1, h2, h3, footer {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: 'Sofia', cursive;
+}
+
+h1 {
+    margin: 0;
+    padding: 1em 0;
+    color: #FFF;
+    font-size: 4em;
+    text-shadow: #021966 3px 3px;
+}
+@media screen and (max-width: 440px) {
+    h1 {
+        padding: 5em 0 0;
+        font-size: 2em;
+    }
+}
+
+h2 {
+    font-size: 2em;
+    padding: 2em 0 1em;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1.6em;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    text-align: center;
+    list-style: none;
+}
+
+.section {
+    padding: 0 0 5em;
+}
+
+.main-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+
+/* ERI KOKOISET ELEMENTIT */
+.small {
+    width: 20%;
+    height: auto;
+    padding: 2%;
+    display: inline-block;
+    vertical-align: top;
+}
+@media screen and (max-width: 1200px) and (min-width: 600px) {
+    .small {
+        width: 45%;
+    }
+}
+@media screen and (max-width: 599px) {
+    .small {
+        width: 100%;
+    }
+}
+
+.medium {
+    width: 45%;
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media screen and (max-width: 800px) {
+    .medium {
+        width: 100%;
+    }
+}
+
+.medium:first-child {
+    margin: 0 8% 0 0;
+}
+@media screen and (max-width: 800px) {
+    .medium {
+        margin: 0;
+    }
+}
+
+.large {
+    width: 100%;
+    height: auto;
+}
+
+
+/* NAVIGAATIO */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    background: #021966;
+}
+
+nav li {
+    display: inline-block;
+}
+nav li:hover {
+    background: #0051b5;
+}
+
+nav a {
+    padding: 1em;
+    display: block;
+    color: #FFF;
+    text-decoration: none;
+}
+nav a:visited {
+    color: #FFF;
+}
+
+
+/* HEADER */
+header {
+    height: calc(100vh - 200px);
+    margin: 50px 0 0;
+    background: url(../images/hero.jpg) no-repeat;
+    background-size: 100% auto;
+}
+@media screen and (max-width: 850px) and (min-width: 600px) {
+    header {
+        background-size: 150% auto;
+    }
+}
+@media screen and (max-width: 599px) and (min-width: 420px) {
+    header {
+        background-size: 200% auto;
+    }
+}
+@media screen and (max-width: 419px) {
+    header {
+        background-size: 400% auto;
+    }
+}
+
+
+/* KAHVILASTAMME */
+#kahvilastamme {
+    background: #f0f0f0;
+}
+
+
+/* RUOKALISTA */
+#ruokalista {
+    font-family: 'Sofia', cursive;
+}
+
+#ruokalista ul {
+    font-size: 1.2em;
+}
+
+
+/* KVAAKSTAGRAM */
+#kvaakstagram {
+    background: #f0f0f0;
+}
+
+.ig-text {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+
+/* FOOTER */
+footer {
+    padding: 0 0 2.4em 0;
+}
+
+
+
+
+
